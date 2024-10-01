@@ -1,0 +1,26 @@
+[
+    {
+        "nombre": "Procesador Intel Core I9-9900k 8 Cores 3.6GHz",
+        "descripcion": "",
+        "precio": 1470000,
+        "imagen": "images/procesadores/intelcorei9.webp"
+    },
+    {
+        "nombre": "Procesador gamer AMD Ryzen 5 5600X de 6 núcleos y 4.6GHz",
+        "descripcion": "",
+        "precio": 242000,
+        "imagen": "images/procesadores/amdryzen5.webp"
+    },
+    {
+        "nombre": "Procesador gamer AMD Ryzen 7 5700X y 3.4GHz",
+        "descripcion": "",
+        "precio": 435000,
+        "imagen": "images/procesadores/amdryzen7.webp"
+    },
+    {
+        "nombre": "Procesador gamer Intel Core i5-10400F BX8070110400F de 6 núcleos y 4.3GHz",
+        "descripcion": "",
+        "precio": 231000,
+        "imagen": "images/procesadores/intelcorei510th.webp"
+    }
+]

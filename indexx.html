@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electromundo</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <!-- Toastify CSS -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <!-- Toastify JS -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="images/198407865.png" alt="Logo Electromundo">
+        </div>
+        <div class="search-container">
+            <!-- Botón de favoritos (colocado antes de la barra de búsqueda) -->
+            <button id="favorites-btn" class="favorites-btn">
+                <img src="images/estrella3.png" alt="Favoritos" >
+            </button>
+            <form id="search-form" action="#" method="get">
+                <input type="text" placeholder="Buscar..." name="search" id="search-input">
+                <button type="submit">Buscar</button>
+            </form>
+        </div>
+    </header>
+    <nav>
+        <a href="#" id="home-link">Inicio</a>
+        <a href="#" id="consolas-link">Consolas</a>
+        <a href="#" id="juegos-link">Juegos</a>
+        <a href="#" id="procesadores-link">Procesadores</a>
+        <a href="#" id="placas-de-video-link">Placas de video</a>
+        <a href="#" id="monitores-link">Monitores</a>
+        <a href="#" id="perifericos-link">Periféricos</a>
+    </nav>
+    <main class="content">
+        <div id="search-results" class="tab-content" style="display:none;"></div>
+        <!-- Cambiamos display a block para home-content -->
+        <div id="home-content" class="tab-content" style="display: block;"></div>
+        <div id="consolas-content" class="tab-content" style="display:none;"></div>
+        <div id="juegos-content" class="tab-content" style="display:none;"></div>
+        <div id="procesadores-content" class="tab-content" style="display:none;"></div>
+        <div id="placas-de-video-content" class="tab-content" style="display:none;"></div>
+        <div id="monitores-content" class="tab-content" style="display:none;"></div>
+        <div id="perifericos-content" class="tab-content" style="display:none;"></div>
+
+        <!-- Sección para mostrar productos favoritos -->
+        <div id="favorites-content" class="tab-content" style="display:none;">
+            <h2>Favoritos</h2>
+            <div id="favorites-products"></div>
+        </div>
+
+        <!-- Nueva sección para Ayuda y Asistencia -->
+        <div id="ayuda-content" class="tab-content" style="display:none;">
+            <h2>Ayuda y Asistencia</h2>
+            <p>
+                Si necesita ayuda o tiene alguna duda respecto a la página o las Políticas de Seguridad, no dudes en contactarte con nosotros.
+            </p>
+        
+            <p><strong>E-mail de contacto:</strong> 
+                <a href="#" id="copy-email">electromundosoporte42@gmail.com</a>
+            </p>
+        
+            <!-- Mensaje de confirmación oculto -->
+            <p id="copy-message" style="display:none; color: green;">¡Correo copiado al portapapeles!</p>
+        </div>
+
+        <!-- Nueva sección para Políticas de Seguridad -->
+        <div id="politicas-content" class="tab-content" style="display:none;">
+            <h2>Políticas de Seguridad</h2>
+            <p>
+                En <strong>Electromundo</strong>, nos comprometemos a proteger la información de nuestros usuarios mientras ofrecemos una plataforma segura.
+            </p>
+     
+            <h3>1. Protección de la Información</h3>
+            <p>
+                Adoptamos medidas avanzadas de seguridad como el cifrado de datos sensibles, control de acceso estricto y monitoreo constante para garantizar la seguridad de tu información.
+            </p>
+        
+            <h3>2. Almacenamiento de Datos</h3>
+            <p>
+                Conservamos tu información solo durante el tiempo necesario para cumplir con los fines descritos, y luego la eliminamos de manera segura.
+            </p>
+        
+            <h3>3. Compartir la Información</h3>
+            <p>
+                No vendemos ni alquilamos tu información. Solo la compartimos con proveedores de servicios tecnológicos o logísticos, y con autoridades legales cuando es necesario.
+            </p>
+        
+            <h3>4. Uso de Cookies</h3>
+            <p>
+                Usamos <strong>cookies</strong> para mejorar tu experiencia de usuario y personalizar la navegación. Puedes configurarlas desde tu navegador.
+            </p>
+        
+            <h3>5. Actualización de las Políticas de Seguridad</h3>
+            <p>
+                Nos reservamos el derecho a modificar estas políticas para mejorar la protección de datos o cumplir con cambios legales. Revisa esta sección periódicamente.
+            </p>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Electromundo. Todos los derechos reservados.</p>
+        <p><a href="#" id="ayuda-link" style="color: white; text-decoration: underline;">Ayuda y asistencia</a></p>
+        <p><a href="#" id="politicas-link" style="color: white; text-decoration: underline;">Políticas de seguridad</a></p>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+</body>
+</html>

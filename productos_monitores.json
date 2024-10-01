@@ -1,0 +1,26 @@
+[
+    {
+        "nombre": "Monitor Led Samsung 24'' Ips 75hz",
+        "descripcion": "",
+        "precio": 270000,
+        "imagen": "images/monitores/monitorsamsung75hz.webp"
+    },
+    {
+        "nombre": "Monitor BenQ XL-K Series XL2411K LCD 24'' negro 100V/240V 144hz",
+        "descripcion": "",
+        "precio": 512000,
+        "imagen": "images/monitores/monitor144hz.webp"
+    },
+    {
+        "nombre": "Monitor curvo Viotek GNV34DBE2 VA 34'' negro 100V/220V 144hz",
+        "descripcion": "",
+        "precio": 1297000,
+        "imagen": "images/monitores/monitor144hzcurvoviotek.webp"
+    },
+    {
+        "nombre": "Monitor ViewSonic XG2705 led 27'' negro 100V/240V 144hz",
+        "descripcion": "",
+        "precio": 697000,
+        "imagen": "images/monitores/monitor144hzviewsonic.webp"
+    }
+]

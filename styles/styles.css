@@ -1,0 +1,282 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: white;
+    color: #333;
+}
+
+/* Contenedor del logo */
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo-container img {
+    height: 60px; /* Ajusta el tamaño del logo aquí */
+    width: auto;
+}
+
+/* Header Styles */
+header {
+    background-color: #1d7ff7;
+    color: white;
+    padding: 1em 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Search Container */
+.search-container {
+    display: flex;
+    align-items: center;
+}
+
+.search-container input[type="text"] {
+    padding: 8px 12px;
+    margin-right: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    width: 250px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.search-container button {
+    padding: 8px 15px;
+    background-color: #fff;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.search-container button:hover {
+    background-color: #eee;
+}
+
+/* Botón de favoritos */
+.favorites-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px; /* Aumenta el espacio entre el botón y la barra de búsqueda */
+    padding: 0; /* Elimina el relleno */
+}
+
+.favorites-btn img {
+    width: 30px; /* Ajusta el tamaño de la imagen para que sea más pequeña */
+    height: 30px;
+    display: block;
+}
+
+/* Asegurando que los estilos se apliquen correctamente al botón */
+button.remove-from-favorites {
+    background-color: red !important; /* Forzamos el color rojo */
+    color: white !important; /* Texto blanco */
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button.remove-from-favorites:hover {
+    background-color: darkred !important; /* Forzamos el color oscuro al hacer hover */
+}
+
+/* Navigation Styles */
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+}
+
+nav a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #ddd;
+    color: #333;
+}
+
+/* Main Content */
+.content {
+    flex-grow: 1;
+    padding: 20px;
+    background-color: #02c412;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Tab Content */
+.tab-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px 0;
+    justify-content: center;
+}
+
+/* Favoritos */
+#favorites-products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Espacio entre productos */
+    justify-content: center; /* Centra los productos horizontalmente */
+}
+
+/* Estilos de cada producto */
+.product {
+    display: flex;
+    flex-direction: column; /* Asegura que el contenido dentro de cada producto esté apilado verticalmente */
+    width: 300px; /* Ancho fijo para cada producto */
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 16px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    min-height: 550px; /* Aumentamos más la altura mínima de los productos */
+}
+
+.product:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos de la imagen dentro del producto */
+.product img {
+    max-width: 100%;
+    height: auto; /* Permite que la imagen mantenga sus proporciones */
+    max-height: 350px; /* Define una altura máxima para evitar que ocupen demasiado espacio */
+    margin-bottom: 16px;
+    border-radius: 5px;
+    object-fit: contain; /* Asegura que la imagen conserve sus proporciones y no se recorte */
+}
+
+.product h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #3796d6;
+    flex-grow: 1; /* Deja que el título ocupe espacio disponible si es necesario */
+}
+
+.product p {
+    font-size: 16px;
+    margin-bottom: 16px;
+    color: #555;
+    flex-grow: 1; /* Permite que la descripción crezca y ocupe espacio de manera uniforme */
+}
+
+.product button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    margin-top: auto; /* Mueve el botón al final del contenedor */
+}
+
+.product button:hover {
+    background-color: #45a049;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: left;
+    padding: 20px 25px;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+footer a {
+    color: white;
+    text-decoration: underline;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: #ccc;
+}
+
+/* Consolidación de estilos para Ayuda y Políticas de Seguridad */
+#ayuda-content, #politicas-content {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 900px;
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Estilos para los títulos */
+#ayuda-content h2, #politicas-content h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Estilos para los subtítulos */
+#ayuda-content h3, #politicas-content h3 {
+    text-align: left;
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+/* Estilos para los párrafos */
+#ayuda-content p, #politicas-content p {
+    text-align: justify;
+    margin-bottom: 15px;
+}
+
+/* Estilos para listas */
+#ayuda-content ul, #politicas-content ul {
+    margin-left: 20px;
+    list-style-type: disc;
+}
+
+/* Estilos para los elementos de lista */
+#ayuda-content li, #politicas-content li {
+    margin-bottom: 10px;
+}
+
+#copy-message {
+    font-size: 14px;
+    color: green;
+    margin-top: 10px;
+}

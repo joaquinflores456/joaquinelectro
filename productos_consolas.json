@@ -1,0 +1,44 @@
+[
+    {
+        "nombre": "Play Station 5 Sony Ps5 Hw 1215 Standar Edition",
+        "descripcion": "Play Station 5 nueva, incluye 1 mando, resolución de 3840px x 2160px, 16 GB de RAM.",
+        "precio": 1000000,
+        "imagen": "images/consolas/ps5.webp"
+    },
+    {
+        "nombre": "Xbox Series X 1TB SSD 120 Hz 4K Color Negro",
+        "descripcion": "Capacidad: 1 TB, incluye control, resolución de 7680px x 4320px, memoria RAM de 16GB.",
+        "precio": 1200000,
+        "imagen": "images/consolas/xboxsx.webp"
+    },
+    {
+        "nombre": "Nintendo Switch 32 GB Standard Edition Neon Color Rojo Neón/Azul Neón/Negro",
+        "descripcion": "Incluye 2 controles, resolución de 1920px x 1080px, memoria RAM de 4GB.",
+        "precio": 750000,
+        "imagen": "images/consolas/nintendoswitch.webp"
+    },
+    {
+        "nombre": "Nintendo Switch OLED HEG-001 64GB Standard color neón 2021",
+        "descripcion": "Capacidad: 64 GB Incluye 2 controles.Resolución de 1920px x 1080px.Memoria RAM de 4GB.Tiene pantalla táctil.Cuenta con: 1 joy-con grip.",
+        "precio": 839999,
+        "imagen": "images/consolas/nintendoswitcholed.webp"
+    },
+    {
+        "nombre": "Play Station 4 Slim de 1 TB color negro",
+        "descripcion": "Capacidad: 1 TB.Memoria RAM de 8 GB.Cuenta con cable HDMI.",
+        "precio": 700000,
+        "imagen": "images/consolas/ps4.webp"
+    },
+    {
+        "nombre": "Consola Portatil Steam Deck Oled 512gb Valve Color Negro",
+        "descripcion": "Capacidad: 512 GB Es portátil.Incluye control.Memoria RAM de 16GB.Tiene pantalla táctil.Cuenta con: cargador.",
+        "precio": 1769999,
+        "imagen": "images/consolas/steamdeck.webp"
+    },
+    {
+        "nombre": "Consola Xbox Series S 512gb Digital Blanco",
+        "descripcion": "Incluye control.Resolución de 2560px x 1440px.Memoria RAM de 10GB.Cuenta con: 1 cable hdmi, 1 cable de alimentación ca.",
+        "precio": 929999,
+        "imagen": "images/consolas/xboxss.webp"
+    }
+]

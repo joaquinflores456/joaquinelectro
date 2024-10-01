@@ -1,0 +1,40 @@
+[
+    {
+        "nombre": "Nvidia Msi Ventus Xs Geforce Gtx 1650 D6 Ventus Xs Oc Oc Edition 4gb",
+        "descripcion": "",
+        "precio": 265000,
+        "imagen": "images/placas-de-video/nvidiagtx1650.webp"
+    },
+    {
+        "nombre": "Tarjeta de vídeo Msi Rtx 4070 Super Ventus 2x Oc 12gb GDDR6x",
+        "descripcion": "",
+        "precio": 1526000,
+        "imagen": "images/placas-de-video/TarjetadevídeoMsiRtx4070.webp"
+    },
+    {
+        "nombre": "Tarjeta De Video Msi Geforce Rtx 3050 Ventus 2x Xs Oc 8gb Gddr6",
+        "descripcion": "",
+        "precio":466259,
+        "imagen": "images/placas-de-video/nvidiageforcertx3050.webp"
+    },
+    {
+        "nombre": "Placa de Video Gigabyte RX 6500 XT Eagle 4GB",
+        "descripcion": "",
+        "precio": 264999,
+        "imagen": "images/placas-de-video/GigabyteRX6500.webp"
+    },
+    {
+        "nombre": "Tarjeta De Vídeo Xfx Amd Radeon Rx 6650 Xt Speedster Swft 210 8gb",
+        "descripcion": "",
+        "precio": 419300,
+        "imagen": "images/placas-de-video/AmdRadeonRx6650.webp"
+    },
+    {
+        "nombre": "Tarjeta De Video Amd Asus Radeon Dual Rx 7600 Xt 16gb Oc",
+        "descripcion": "",
+        "precio": 548000,
+        "imagen": "images/placas-de-video/RadeonDualRx7600.webp"
+    }
+]
+
+

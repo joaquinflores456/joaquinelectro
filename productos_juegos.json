@@ -1,0 +1,44 @@
+[
+    {
+        "nombre": "Sonic Frontiers PS5",
+        "descripcion": "",
+        "precio": 60000,
+        "imagen": "images/juegos/sonicfrontiersps5.jpg"
+    },
+    {
+        "nombre": "Marvel Spider Man 2 PS5",
+        "descripcion": "",
+        "precio": 80000,
+        "imagen": "images/juegos/spidermanps5.jpg"
+    },
+    {
+        "nombre": "Super Smash Bros. Ultimate Nintendo Switch",
+        "descripcion": "",
+        "precio": 75000,
+        "imagen": "images/juegos/smashultimate.jpg"
+    },
+    {
+        "nombre": "Red Dead Redemption 2 PS4",
+        "descripcion": "",
+        "precio": 50000,
+        "imagen": "images/juegos/rdr2ps4.png"
+    },
+    {
+        "nombre": "FC 24 PS5",
+        "descripcion": "",
+        "precio": 60000,
+        "imagen": "images/juegos/fc24ps5.jpg"
+    },
+    {
+        "nombre": "Mortal Kombat 1 PS5",
+        "descripcion": "",
+        "precio": 70000,
+        "imagen": "images/juegos/mk1ps5.jpg"
+    },
+    {
+        "nombre": "Mario Kart 8 Deluxe Nintendo Switch",
+        "descripcion": "",
+        "precio": 70000,
+        "imagen": "images/juegos/mariokart8deluxe.webp"
+    }
+]

@@ -1,0 +1,38 @@
+[
+    {
+        "nombre": "G203 Logitech G Series Azul",
+        "descripcion": "",
+        "precio": 36000,
+        "imagen": "images/perifericos/logitech.webp"
+    },
+    {
+        "nombre": "Teclado gamer Redragon Kumara K552 QWERTY español latinoamérica color negro con luz RGB",
+        "descripcion": "",
+        "precio": 75000,
+        "imagen": "images/perifericos/tecladoredragonkurama.webp"
+    },
+    {
+        "nombre": "Teclado gamer Razer Black Widow BlackWidow V3 QWERTY español España color negro con luz RGB",
+        "descripcion": "",
+        "precio": 245000,
+        "imagen": "images/perifericos/tecladoryzenblackwidow.webp"
+    },
+    {
+        "nombre": "Auriculares Hyperx Cloud Iii Red DTS Color Black/Red",
+        "descripcion": "",
+        "precio": 181349,
+        "imagen": "images/perifericos/hyperxauri2.webp"
+    },
+    {
+        "nombre": "Auriculares gamer inalámbricos HyperX Cloud Flight HX-HSCF negro con luz rojo LED",
+        "descripcion": "",
+        "precio": 230099,
+        "imagen": "images/perifericos/hyperxauri.webp"
+    },
+    {
+        "nombre": "Mouse Inalámbrico M280 Logitech Color Negro",
+        "descripcion": "",
+        "precio": 16000,
+        "imagen": "images/perifericos/logitechm280.webp"
+    }
+]
